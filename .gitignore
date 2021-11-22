@@ -1,0 +1,8 @@
+    // the unique method you need to use
+    public static function getPDO() {
+        // If no instance => create one
+        if (empty(self::$_instance)) {
+            self::$_instance = new Database();
+        }
+        return self::$_instance->dbh;
+    }

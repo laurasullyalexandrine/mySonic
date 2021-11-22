@@ -1,0 +1,78 @@
+#wrappers {
+    margin: auto;
+    width: 900px;
+    border-radius: 15px;
+    padding-top: 2%, 1%, 0, 1%;
+    border: 3px solid gray;
+    box-shadow:  5px 5px gray;
+}
+
+/*--- Characters ---*/
+
+.characters_subtitle {
+    padding: 0.5%;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+    border-bottom: 4px double gray;
+}
+
+.characters_elements-pictures {
+    padding: 2%;
+    border-right: 4px double gray;
+    border-bottom: 4px double gray;
+}
+
+.characters_elements-name {
+    margin: 2%;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.characters_elements-description {
+    padding: 1%;
+    text-align: justify;
+    border-bottom: 4px double gray;
+}
+
+.characters_elements-type,
+.characters_elements-name {
+    text-align: center;
+    border-bottom: 4px double gray;
+}
+
+
+
+/*--- Auhtors ---*/
+
+.author_1 {
+margin: 2%;
+}
+
+
+h3 {
+    text-decoration: underline;
+    text-shadow: 1px 1px 2px grey;
+}
+
+.yasuhara {
+    margin: 1%;
+    padding: 1%;
+    width: 200px;
+    height: 250px;
+    float: left;
+    border-radius: 15px;
+    border: 2px solid black;
+}
+
+.author_description_lorem {
+line-height: 1.4rem;
+text-shadow: 1px 1px 1px grey;
+}
+
+.authors_pictures {
+    margin: 1%;
+}
+
