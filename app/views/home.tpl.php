@@ -14,7 +14,7 @@
 Utilisation de la variable $currentCharacters qui stocke sous forme d'objet la fonction findAllCharacters()-->
     <tr>
     <?php for ($i = 0; $i <= 12; $i++): ?>
-        <?php $currentCharacters = $home_characters [$i]; // dump($currentCharacters); ?>
+        <?php $currentCharacters = $home_characters [$i];  //dump($currentCharacters); ?>
         
         <td class="characters_elements">
         <img class="characters_elements-pictures" src="assets/images/<?= $currentCharacters['picture']?>" width="110px" height="120px" alt="Pictures's characters">

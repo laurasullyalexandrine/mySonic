@@ -18,7 +18,7 @@ private $type_id;
 
     // En premier se connecter à la BDD en récupérant de connexion PDO qui se trouve dans le fichier DataBase
      $pdoDBConnexion = Database::getPDO();
-     dump($pdoDBConnexion);
+     // dump($pdoDBConnexion);
 
      // On écrit notre requête sql qui nous permettra d'afficher les différentes infos souhaitées des personnages.
      $sql = 'SELECT `character`.`id`, `character`.`name`, `character`.`description`, `character`.`picture`, `type`.`name` 
@@ -29,7 +29,7 @@ private $type_id;
 
          // Récupération des résultats
         $charactersList = $pdoStatement->fetchAll(PDO::FETCH_ASSOC);
-        dump($charactersList);
+        // dump($charactersList);
 
          return $charactersList;
  }  
